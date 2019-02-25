@@ -8,5 +8,5 @@ ${Browser}        gc
 *** Test Cases ***
 Search
     Open Browser    ${URL}    ${Browser}
-	Test Teardown Close Browser
+	Wait Until Page Contains	Google
 	Close Browser
