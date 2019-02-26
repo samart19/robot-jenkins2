@@ -3,7 +3,7 @@ Library    Selenium2Library
 
 *** Variable ***
 ${URL}            https://google.com
-${Browser}        firefox
+${Browser}        chrome
 
 *** Test Cases ***
 Search
